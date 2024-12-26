@@ -1,0 +1,122 @@
+#jumbotron {
+    padding-top: 30%;
+    padding-bottom: 10%;
+}
+
+section {
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+body {
+    background-color: #0dcaf0;
+    color: #d4d4d4;
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#navbarContent{
+    padding-right: 50px;
+    padding-left: 10px;
+}
+
+.code-area .string {
+    color: #6A8759;
+}
+
+.code-area .comment {
+    color: #808080;
+}
+
+.code-area .function {
+    color: #0dcaf0;
+}
+
+.code-area .keyword {
+    color: #CC7832;
+}
+
+pre {
+    padding: 10px;
+}
+
+.code-area {
+    padding: 20px;
+    border: 20px;
+    overflow: hidden;
+}
+
+.line-numbers {
+    border-right: 1px solid #3c3c3c;
+    color: #808080;
+}
+
+.navbar-toggler {
+    color: #d4d4d4;
+}
+
+.navbar-toggler:hover {    
+    background-color: #808080;
+}
+
+.navhover:hover {
+    background-color: #808080;
+}
+
+/* Navbar link icon color */
+.nav-link i {
+    margin-right: 6px;
+    color: #cc7832;
+}
+
+/* Footer link icon color */
+.footer-link i {
+    color: #d4d4d4;
+    margin: 20px;
+}
+
+.firstname {
+    display: inline-block;
+    font-weight: bold;
+    background: #cc7832; 
+    line-height: 1px; 
+    padding-bottom: 0.4em; 
+    margin: 20px;
+}
+
+.secondname {
+    display: inline-block;
+    font-weight: bold;
+    background: #0dcaf0;
+    line-height: 1px; 
+    padding-bottom: 0.4em;
+    margin: 20px;
+}
+
+.progress {
+    margin: 10px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.progress-bar {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.firstdiv {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #1e1e1e;
+    border-radius: 2%;
+}
+
+

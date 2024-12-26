@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS and Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    
+    <!-- Optional JavaScript -->
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js "></script>
+    
+    <!-- Title -->
+    <title>DevTraldi Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/icons8-code-file-16.ico">    
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Menus -->
+    <div class="firstdiv d-flex">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-dark flex-column p-3">
+
+            <!-- Toggler Button -->
+            <button class="navbar-toggler mb-3 custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="bi bi-folder2"></i>
+            </button>
+
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-white d-flex align-items-center">
+                            <i class="bi bi-chevron-down" style="color: #d4d4d4;"></i> devtraldi_portfolio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navhover text-white d-flex align-items-center" href="#about">
+                            <i class="bi bi-code me-2"></i> about.py
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navhover text-white d-flex align-items-center" href="#projects">
+                            <i class="bi bi-code me-2"></i> projects.py
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navhover text-white d-flex align-items-center" href="#skills">
+                            <i class="bi bi-code me-2"></i> skills.py
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navhover text-white d-flex align-items-center" href="#career">
+                            <i class="bi bi-code me-2"></i> career.py
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Code Area -->
+        <div class="code-area d-flex">
+            <!-- Line Numbers -->
+            <pre class="line-numbers">
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+</pre>
+
+            <!-- Code -->
+            <pre>
+<code><span class="string">"""</span>
+<span class="string">devtraldi_portfolio.py</span>
+<span class="string">Hi, my name is Rafael Traldi.</span>
+<span class="string">I'm a SAP/ABAP developer student based in Portugal.</span>
+<span class="string">My personal website highlights my programming</span>
+<span class="string">skills, creativity, and technical expertise</span>
+<span class="string">that reflects my passion for coding.</span>
+<span class="string">"""</span>
+
+<span class="comment"># Importing the DevTraldi portfolio library</span>
+<span class="keyword">from</span> devtraldi_portfolio <span class="keyword">import</span> personal_info, 
+list_projects, show_skills, career_journey
+
+<span class="comment"># Displaying personal information</span>
+<span class="function">print</span>(<span class="function">personal_info</span>())
+
+<span class="comment"># Listing projects</span>
+<span class="function">print</span>(<span class="function">list_projects</span>())
+
+<span class="comment"># Showing skills</span>
+<span class="function">print</span>(<span class="function">show_skills</span>())
+
+<span class="comment"># Displaying professional journey</span>
+<span class="function">print</span>(<span class="function">career_journey</span>())
+</code>
+</pre>
+        </div>
+    </div>
+
+    <!-- About -->
+    <section id="about" class="section-blue bg-info text-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-3"><img class="rounded-circle float-end img-fluid" src="images/devtraldi.jpeg" /></div>
+                <div class="col-8"><h3 style="color: #CC7832;">Hi, my name is</h3><h1 class="firstname">RAFAEL TRALDI.</h1> 
+                    <p style="text-align: justify">I started my career in administration, but working closely with programmers, during the 2020 pandemic, I started learning Python through online resources
+                    and started working in the data science field on innovative solutions using computer vision algorithms.
+                    I've always loved the challenge of writing clean, effective code and solving complex problems. Now, 
+                    I'm taking it a step further by learning SAP ABAP to expand my skill set and open doors to exciting new opportunities.
+                    Let's build something amazing together!
+                </p></div>
+            </div>            
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section-white bg-white text-dark">
+        <div class="container">
+            <h3>Some of</h3><h1 class="secondname">MY PROJECTS.</h1>
+            <div class="row">
+                <div class="col-sm-4 d-flex">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Object Detection Computer Vision</h5>
+                      <p class="card-text">Developed and trained the YOLO11 object detection model to identify logos in video content. Used advanced computer vision techniques and custom data augmentation to create robust datasets, improving model precision and performance.</p>
+                      <a href="https://github.com/devtraldi" class="btn btn-info">View</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 d-flex">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Python Data Visualization</h5>
+                      <p class="card-text">Built dynamic data visualizations using libraries like Seaborn and Matplotlib to interpret and present complex data insights. Combined statistical analysis with predictive modeling to generate actionable insights.</p>
+                      <a href="https://github.com/devtraldi" class="btn btn-info">View</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 d-flex">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Web App: Poker Odds Calculator</h5>
+                        <p class="card-text">Designed and implemented a web-based poker odds calculator, using sophisticated algorithms capable of handling billions of calculations. Integrated PostgreSQL for efficient data storage, ensuring high performance and scalability.</p>
+                        <a href="https://github.com/devtraldi" class="btn btn-info">View</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section-blue bg-info text-dark">
+        <div class="container">
+            <h3 style="color: #CC7832;">Here are</h3><h1 class="firstname"> MY SKILLS.</h1>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Python</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">SQL (Microsoft SQL Server & PostgreSQL)</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Seaborn, Matplotlib, Pandas, NumPy</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">PyTorch, TensorFlow, YOLO11</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">HTML, CSS, JavaScript</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">SAP S/4HANA</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">English</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career -->
+    <section id="career" class="section-white bg-white text-dark">
+        <h3>And lastly my</h3><h1 class="secondname">CAREER TIMELINE.</h1>
+        <ul type="none">
+            <li>
+                <h2>Track Studio</h2>
+                <h5><i>Data Scientist</i></h5>
+                <p><i>February 2021 - March 2023</i></p>
+            </li>
+            <li>
+                <h2>Strumpf Molhos</h2>
+                <h5><i>Data Analyst & General Manager</i></h5>
+                <p><i>November 2018 - February 2020</i></p>
+            </li>
+            <li>
+                <h2>Brick Studio</h2>
+                <h5><i>Data Analyst & General Manager</i></h5>
+                <p><i>November 2013 - July 2017</i></p>
+            </li>
+            <li>
+                <h2>Kantar IBOPE Media</h2>
+                <h5><i>Commercial Manager</i></h5>
+                <p><i>July 2007 - July 2010</i></p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-dark bg-dark text-white">
+        <div class="container footer-link">
+            <a href="devtraldi@gmail.com"><i class="bi bi-envelope h2"></i></a>
+            <a href="https://github.com/devtraldi"><i class="bi bi-github h2"></i></a>
+            <a href="https://www.linkedin.com/in/devtraldi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="bi bi-linkedin h2"></i></a>
+            <p>&copy; Copyright 2024 Devtraldi</p>
+        </div>
+    </footer>
+</body>
+
+</html>
